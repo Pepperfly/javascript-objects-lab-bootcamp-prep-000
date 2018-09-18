@@ -6,6 +6,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 
+<<<<<<< HEAD
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   // updates `object` with the given `key` and `value` (it is destructive) and returns the entire updated object:
   object[key] = value;
@@ -26,6 +27,11 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   //modifies the original object
   delete object[key];
   return object;
+=======
+// updates `object` with the given `key` and `value` (it is destructive) and returns theentire updated object:
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+  
+>>>>>>> 0bd9fe456cc7c6d99582b56fc3e5eaed4308c9ed
 }
 
 
